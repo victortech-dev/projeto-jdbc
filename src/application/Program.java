@@ -1,5 +1,6 @@
 package application;
 
+<<<<<<< HEAD
 
 import db.DB;
 import db.DbException;
@@ -35,6 +36,17 @@ public class Program {
         System.out.println();
 
 
+=======
+import db.DB;
+
+import java.sql.Connection;
+
+public class Program {
+    public static void main(String[]args){
+
+        Connection conn = DB.getConnection();
+        DB.closeConnection();
+>>>>>>> 07e1396162cedad1ff719b06d5a95088459f63f6
     }
 
 }

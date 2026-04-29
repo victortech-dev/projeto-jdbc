@@ -2,7 +2,13 @@ package db;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+<<<<<<< HEAD
 import java.sql.*;
+=======
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+>>>>>>> 07e1396162cedad1ff719b06d5a95088459f63f6
 import java.util.Properties;
 
 public class DB {
@@ -45,6 +51,7 @@ public class DB {
         }
     }
 
+<<<<<<< HEAD
     // Metodo para tratar exceçoes dos atributos st e rs
     public static void closeStatement(Statement st) {
         if (st != null) {
@@ -71,3 +78,7 @@ public class DB {
 
 
 }
+=======
+
+}
+>>>>>>> 07e1396162cedad1ff719b06d5a95088459f63f6
