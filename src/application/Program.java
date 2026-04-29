@@ -32,7 +32,7 @@ public class Program {
             DB.closeConnection();
 
         }
-
+        System.out.println();
 
 
     }

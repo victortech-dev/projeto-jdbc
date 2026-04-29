@@ -45,7 +45,7 @@ public class DB {
         }
     }
 
-// Metodo para tratar exceçoes dos atributos st e rs
+    // Metodo para tratar exceçoes dos atributos st e rs
     public static void closeStatement(Statement st) {
         if (st != null) {
             try {
@@ -56,7 +56,9 @@ public class DB {
 
         }
     }
+
     public static void closeResultSet(ResultSet rs) {
+        System.out.println();
         if (rs != null) {
             try {
                 rs.close();
